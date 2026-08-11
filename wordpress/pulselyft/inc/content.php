@@ -22,12 +22,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 function pulselyft_default_content() {
 	$content = array(
 		'hero' => array(
-			'badge'          => 'Performance marketing studio',
-			'headlineBefore' => 'Revenue systems for brands that',
-			'headlineItalic' => 'refuse',
-			'headlineAfter'  => 'to guess.',
-			'sub'            => 'Meta ads, performance creative, and SEO engineered around pipeline and profit—not slides that age in a week.',
-			'primaryCta'     => 'Start a project',
+			'badge'          => 'Meta ads agency for revenue-focused brands',
+			'headlineBefore' => 'Meta ads that',
+			'headlineItalic' => 'compound',
+			'headlineAfter'  => 'into pipeline.',
+			'sub'            => 'PulseLyft is a Meta ads agency running Facebook and Instagram campaigns for brands that measure success in CAC and payback, not impressions. Creative testing, CAPI-led measurement, and SEO layered on top when it earns its place.',
+			'primaryCta'     => 'Get a Meta ads audit',
 			'secondaryCta'   => 'View outcomes',
 			'heroImage'      => 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=85',
 			'heroImageAlt'   => 'Marketing team reviewing campaign performance on screens',
@@ -38,8 +38,8 @@ function pulselyft_default_content() {
 			),
 			'floatCard'      => array(
 				'kicker' => 'Live program signal',
-				'title'  => 'Scale-ready in weeks',
-				'body'   => 'Measurement, creative, and search—one operating rhythm.',
+				'title'  => 'Meta ads, scale-ready in weeks',
+				'body'   => 'Account audit, creative testing, and CAPI tracking—one operating rhythm.',
 			),
 		),
 
@@ -50,27 +50,27 @@ function pulselyft_default_content() {
 
 		'services' => array(
 			'kicker' => 'Capabilities',
-			'title'  => 'Full-funnel performance, orchestrated as one system',
-			'intro'  => 'One senior squad across paid, creative, and search—aligned to CAC, payback, and LTV targets you already track.',
+			'title'  => 'Meta ads management, built as a full-funnel system',
+			'intro'  => 'A senior team runs your Meta ads account end to end—structure, creative, and measurement—then layers in the channels that compound it.',
 			'items'  => array(
 				array(
-					'title' => 'Meta ads & paid social',
-					'body'  => 'Creative testing, account structure, and CAPI-led measurement so scaling spend does not scale waste.',
+					'title' => 'Meta ads management',
+					'body'  => 'Facebook and Instagram campaign structure, Advantage+ and CBO setup, budget pacing, and CAPI-led measurement so scaling spend does not scale waste.',
 					'img'   => 'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=900&q=85',
 				),
 				array(
-					'title' => 'Performance creative',
-					'body'  => 'Hooks, angles, and UGC-style packs engineered for thumb-stopping relevance—not awards-show reels.',
+					'title' => 'Meta ads creative testing',
+					'body'  => 'Hooks, angles, and UGC-style ad packs built for a structured test-and-kill cadence—engineered for thumb-stopping relevance, not awards-show reels.',
 					'img'   => 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=85',
 				),
 				array(
 					'title' => 'SEO & content systems',
-					'body'  => 'Technical foundations, intent-led clusters, and internal linking that compound traffic over quarters.',
+					'body'  => 'Technical foundations, intent-led clusters, and internal linking that compound organic traffic alongside paid, over quarters not weeks.',
 					'img'   => 'https://images.unsplash.com/photo-1432888498266-38ffec068eaf?w=900&q=85',
 				),
 				array(
 					'title' => 'Analytics & attribution',
-					'body'  => 'Clean event schemas, server-side tagging, and dashboards leadership actually uses in weekly reviews.',
+					'body'  => 'Clean event schemas, server-side Conversions API tagging, and one weekly dashboard leadership actually uses to judge Meta ads spend.',
 					'img'   => 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=85',
 				),
 			),
@@ -79,10 +79,10 @@ function pulselyft_default_content() {
 		'metrics' => array(
 			'kicker' => 'Evidence',
 			'title'  => 'Numbers your CFO already asks for',
-			'body'   => 'Benchmarks shift by category—we show ranges, not fairy tales. Portfolio blend across SaaS, DTC, and professional services.',
+			'body'   => 'Benchmarks shift by category—we show ranges, not fairy tales. Blend across SaaS, DTC, and professional-services Meta ads accounts.',
 			'stats'  => array(
-				array( 'value' => '$48M+', 'label' => 'Ad spend managed' ),
-				array( 'value' => '142%', 'label' => 'Median organic lift YoY' ),
+				array( 'value' => '$48M+', 'label' => 'Meta ad spend managed' ),
+				array( 'value' => '3.1×', 'label' => 'Median ROAS across accounts' ),
 				array( 'value' => '4.2 wk', 'label' => 'Time to first scale test' ),
 				array( 'value' => '97%', 'label' => 'Client retention (24 mo.)' ),
 			),
@@ -90,8 +90,8 @@ function pulselyft_default_content() {
 
 		'work' => array(
 			'kicker'   => 'Selected work',
-			'title'    => 'Outcomes, not mood boards',
-			'intro'    => 'Representative engagements—anonymized where required. Every program pairs channel depth with ruthless prioritization.',
+			'title'    => 'Meta ads outcomes, not mood boards',
+			'intro'    => 'Representative engagements—anonymized where required. Every program pairs Meta ads account depth with ruthless prioritization. Full case studies coming soon.',
 			'cta'      => 'Discuss a build',
 			'caseBody' => 'Strategy, build, and weekly iteration—so wins compound instead of resetting each quarter.',
 			'cases'    => array(
@@ -159,13 +159,13 @@ function pulselyft_default_content() {
 			'steps'  => array(
 				array(
 					'n'     => '01',
-					'title' => 'Diagnose & benchmark',
-					'body'  => 'Audit accounts, analytics, and SERP reality. Align on margin, payback, and guardrails before spend moves.',
+					'title' => 'Audit your Meta ads account',
+					'body'  => 'Full account, analytics, and SERP audit. Align on margin, payback, and guardrails before spend moves.',
 				),
 				array(
 					'n'     => '02',
 					'title' => 'Ship the growth system',
-					'body'  => 'Launch structured tests, SEO fixes, and tracking—documented in a living roadmap the whole team can see.',
+					'body'  => 'Launch structured Meta ads creative tests, SEO fixes, and CAPI tracking—documented in a living roadmap the whole team can see.',
 				),
 				array(
 					'n'     => '03',
@@ -196,7 +196,7 @@ function pulselyft_default_content() {
 
 		'cta' => array(
 			'kicker' => 'Next step',
-			'title'  => 'Growth you can defend in a board meeting',
+			'title'  => 'Meta ads growth you can defend in a board meeting',
 			'sub'    => 'Two-week discovery sprints, explicit milestones, and no mystery retainers.',
 			'button' => 'Book a strategy call',
 		),
@@ -204,7 +204,7 @@ function pulselyft_default_content() {
 		'bookCall' => array(
 			'kicker'      => 'Book a call',
 			'title'       => 'Pick a time that works for you',
-			'sub'         => '30-minute intro to align on goals, stack, and whether PulseLyft is the right partner—no generic deck.',
+			'sub'         => '30-minute Meta ads intro to align on goals, stack, and whether PulseLyft is the right partner—no generic deck.',
 			'calendlyUrl' => 'https://calendly.com/thepulselyft/30min',
 		),
 
@@ -227,32 +227,32 @@ function pulselyft_default_content() {
 
 		'faq' => array(
 			'kicker' => 'FAQ',
-			'title'  => 'Answers before you book',
-			'intro'  => 'The questions prospective partners ask most. Still unsure? Start a chat or book a call—real answers, no sales theatre.',
+			'title'  => 'Meta ads agency questions, answered directly',
+			'intro'  => 'What clients actually ask before they hand us their Meta ads account. Still unsure? Start a chat or book a call—real answers, no sales theatre.',
 			'items'  => array(
 				array(
-					'q' => 'How quickly can we launch?',
-					'a' => 'Most programs go live within two to four weeks: a discovery sprint to audit accounts, analytics, and SERP reality, then the first structured tests and tracking ship together. Median time to first scale test across our portfolio is 4.2 weeks.',
+					'q' => 'What does a Meta ads agency do?',
+					'a' => 'A Meta ads agency plans, builds, and manages paid campaigns on Facebook and Instagram on a client\'s behalf—account structure, budget and bid strategy, ad creative, and performance reporting—so an internal team does not have to run it in-house.',
 				),
 				array(
-					'q' => 'What does an engagement cost?',
-					'a' => 'Every engagement opens with a fixed-scope two-week discovery sprint, then a monthly program priced to your channels and ad budget—with explicit milestones and no mystery retainers. Book a call and we will size it precisely.',
+					'q' => 'How much does Meta ads management cost?',
+					'a' => 'Meta ads management is typically priced as a flat monthly retainer or a percentage of ad spend (commonly 10–20%), separate from the media budget itself. PulseLyft scopes pricing after a short account audit, once we know your current spend and goals.',
 				),
 				array(
-					'q' => 'Which channels do you run?',
-					'a' => 'Meta ads and paid social, performance creative, SEO and content systems, plus analytics and attribution—orchestrated as one full-funnel system rather than disconnected point services.',
+					'q' => 'How long until Meta ads results show up?',
+					'a' => 'Most accounts see a first structured scale test within 4–5 weeks: week one for the audit and tracking setup, weeks two to four for creative testing, and scale decisions once a winning ad clears a stable CPA over real delivery volume.',
 				),
 				array(
-					'q' => 'How do you report on performance?',
-					'a' => 'One weekly dashboard your leadership actually opens: spend, MER/ROAS, CAC, payback window, and pipeline influenced—built on clean, server-side event schemas your finance team can trust.',
+					'q' => 'Do you run Meta ads for both new and existing accounts?',
+					'a' => 'Yes. For an existing account we start with a full audit—campaign structure, pixel and CAPI health, creative fatigue—before changing anything. For a new account we build the tracking foundation and campaign structure from a blank slate.',
 				),
 				array(
-					'q' => 'Do we keep ownership of our accounts and data?',
-					'a' => 'Always. Ad accounts, analytics, pixels, and content remain yours. We operate inside your stack with documented access, so nothing is held hostage if we ever part ways.',
+					'q' => 'What is Meta\'s Conversions API (CAPI) and why does it matter?',
+					'a' => 'CAPI sends conversion events from your server directly to Meta, alongside browser pixel data. It recovers events lost to ad blockers and iOS tracking limits, giving Meta\'s algorithm more accurate signal to optimize delivery toward real buyers.',
 				),
 				array(
-					'q' => 'What if we already have an in-house team?',
-					'a' => 'Great—most of our partners do. We plug in as senior operators with async-first rituals, augmenting your team on strategy, creative velocity, and measurement instead of replacing it.',
+					'q' => 'Do you only do Meta ads, or other channels too?',
+					'a' => 'Meta ads is our core focus and where most engagements start. We also run performance creative, SEO, and analytics/attribution work—either alongside a Meta ads program or as a standalone engagement once the account has clean tracking.',
 				),
 			),
 		),
@@ -277,10 +277,10 @@ function pulselyft_default_content() {
 			),
 			'services' => array(
 				'kicker'   => 'Services',
-				'title'    => 'Full-funnel growth, run as one system',
-				'sub'      => 'Paid, creative, search, and measurement—orchestrated by senior operators against the CAC, payback, and LTV targets you already track.',
+				'title'    => 'Meta ads management, run as one system',
+				'sub'      => 'Facebook and Instagram advertising, creative, search, and measurement—orchestrated by senior operators against the CAC, payback, and LTV targets you already track.',
 				'body'     => array(
-					'Great performance marketing is not a pile of disconnected tactics—it is one system where creative, media, and measurement reinforce each other. Below is what an engagement looks like and exactly what is included.',
+					'Great Meta ads management is not a pile of disconnected tactics—it is one system where creative, media buying, and measurement reinforce each other. Below is what an engagement looks like and exactly what is included.',
 				),
 				'included' => array(
 					array( 'title' => 'Strategy & benchmarking', 'body' => 'Account, analytics, and SERP audits with margin and payback guardrails before a dollar moves.' ),
@@ -371,9 +371,9 @@ function pulselyft_default_content() {
 		'brand' => array(
 			'namePrefix' => 'Pulse',
 			'nameAccent' => 'Lyft',
-			'tagline'    => 'Performance marketing, Meta ads, and SEO for teams who measure twice and scale once.',
+			'tagline'    => 'Meta ads agency for teams who measure twice and scale once—paid social, SEO, and analytics under one roof.',
 			'email'      => 'hello@pulselyft.com',
-			'metaDesc'   => 'Meta ads, paid acquisition, and search growth for brands that want measurable revenue—not vanity metrics.',
+			'metaDesc'   => 'PulseLyft is a Meta ads agency running Facebook and Instagram campaigns, creative testing, and CAPI-led measurement for brands that scale spend on real ROAS—not guesswork.',
 		),
 	);
 
@@ -395,8 +395,8 @@ function pulselyft_default_posts() {
 	return array(
 		array(
 			'slug'     => 'meta-ads-creative-testing-framework',
-			'title'    => 'A creative testing framework that actually scales Meta spend',
-			'excerpt'  => 'Most teams burn budget on random creative swaps. Here is a simple structure for hooks, angles, and kill rules that keeps CAC honest.',
+			'title'    => 'A Meta ads creative testing framework that actually scales spend',
+			'excerpt'  => 'Most teams burn budget on random creative swaps. Here is a simple structure for hooks, angles, and kill rules that keeps Meta ads CAC honest.',
 			'category' => 'Meta ads',
 			'date'     => '2026-05-12',
 			'readTime' => '6 min read',
