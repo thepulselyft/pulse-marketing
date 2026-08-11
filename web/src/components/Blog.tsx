@@ -38,7 +38,7 @@ export function Blog() {
                 <div className="relative aspect-[16/10] overflow-hidden bg-zinc-100">
                   <Image
                     src={post.img}
-                    alt=""
+                    alt={post.imgAlt}
                     fill
                     className="object-cover transition duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 33vw"

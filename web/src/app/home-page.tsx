@@ -9,6 +9,7 @@ import { CaseStudies } from "@/components/CaseStudies";
 import { Portfolio } from "@/components/Portfolio";
 import { Process } from "@/components/Process";
 import { Testimonials } from "@/components/Testimonials";
+import { FAQ } from "@/components/FAQ";
 import { CtaBand } from "@/components/CtaBand";
 import { Blog } from "@/components/Blog";
 import { BookCall } from "@/components/BookCall";
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Portfolio />
         <Process />
         <Testimonials />
+        <FAQ />
         <CtaBand />
         <Blog />
         <BookCall />

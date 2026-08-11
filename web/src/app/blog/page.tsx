@@ -4,9 +4,12 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { blogPosts } from "@/lib/blogPosts";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thepulselyft.com";
+
 export const metadata = {
-  title: "Blog — PulseLyft",
-  description: "Performance marketing, Meta ads, SEO, and analytics playbooks from PulseLyft.",
+  title: "Meta Ads, SEO & Analytics Blog",
+  description: "Meta ads, performance marketing, SEO, and analytics playbooks from PulseLyft.",
+  alternates: { canonical: `${siteUrl}/blog` },
 };
 
 export default function BlogPage() {
@@ -33,7 +36,7 @@ export default function BlogPage() {
                   <div className="relative aspect-[16/10] overflow-hidden bg-zinc-100">
                     <Image
                       src={post.img}
-                      alt=""
+                      alt={post.imgAlt}
                       fill
                       className="object-cover transition duration-500 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, 33vw"

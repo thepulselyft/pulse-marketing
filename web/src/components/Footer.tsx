@@ -12,7 +12,7 @@ export function Footer() {
             Pulse<span className="text-lift">Lyft</span>
           </p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-zinc-600">
-            Performance marketing, Meta ads, and SEO for teams who measure twice and scale once.
+            Meta ads agency for teams who measure twice and scale once—paid social, SEO, and analytics under one roof.
           </p>
         </div>
         <div className="flex flex-wrap gap-16 text-sm">
@@ -28,6 +28,9 @@ export function Footer() {
             </Link>
             <Link href="#portfolio" className="text-zinc-600 transition hover:text-ink">
               Portfolio
+            </Link>
+            <Link href="#faq" className="text-zinc-600 transition hover:text-ink">
+              FAQ
             </Link>
             <Link href="/admin" className="text-zinc-600 transition hover:text-ink">
               Admin
@@ -49,7 +52,7 @@ export function Footer() {
         </div>
       </div>
       <p className="mt-14 text-center text-[11px] uppercase tracking-widest text-zinc-400">
-        © {new Date().getFullYear()} PulseLyft — demo brand
+        © {new Date().getFullYear()} PulseLyft. All rights reserved.
       </p>
     </footer>
   );
